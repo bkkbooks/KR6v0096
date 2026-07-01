@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR6v0096/ZW/v1
+canonical_location: https://kanripo.org/bkk/KR6v0096/ZW/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金剛經注頌釋
+  identifiers:
+    krp: KR6v0096
+    cbeta: ZW09n0073d
+    cbeta_old_id: ZW09n0073d
+    authorityid: CA0008506
+    json_key: ZW0073d
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW09/ZW09n0073d.xml
+    old_id: ZW09n0073d
+  edition:
+    short: ZW
+assets:
+  parts:
+  - {seq: 1, filename: KR6v0096_001-ZW.yaml, hash: 'sha256:8ae0ced36d608a9f23c111c9ef3fed59a4185215222194ef9bbf3c3a5c6e8650'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0096_001-ZW.markers.yaml, hash: 'sha256:a0c270707ebac55aff2e1568af8cd2861eb71590fcace940c15994d087fa818e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0096_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 5879
+  label: ''
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0096_ZW_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 錄文四
+  type: mulu
+  level: 1
+hash: sha256:46aa9a358e88ec079ae7bd3fb9350dce5d11e2e9cfb002627023e80f276fdab7

@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6v0096/v1
+canonical_location: https://kanripo.org/bkk/KR6v0096/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛經注頌釋
+  identifiers:
+    alt_id:
+    - W09n0073d
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW09/ZW09n0073d.xml
+    old_id: ZW09n0073d
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR6v0096_001.yaml, hash: 'sha256:ea25014c803ef00e39a0178b99da39b73d61f1f2685aa9b71f93482775cdbc84'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0096_001.markers.yaml, hash: 'sha256:484b718949334b96f533c32aa73fea16c22d43c5840d43167b25b328dbff0d6b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0096_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 5879
+  label: ''
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0096_ZW_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 錄文四
+  type: mulu
+  level: 1
+hash: sha256:db490086241fc10219ea27e3caa790d9ad2c4258486a43f4c350a160613af2a7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: ZW
